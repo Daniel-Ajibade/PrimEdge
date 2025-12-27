@@ -524,15 +524,24 @@ section {
 }
 
 /* CLIENTS SECTION */
-.clients-section {
+/* .clients-section {
     background: var(--bg-light);
     padding: var(--spacing-md) 0;
 }
+
 
 .clients-intro {
     text-align: center;
     color: var(--text-light);
     margin-bottom: var(--spacing-md);
+} */
+
+.clients-section {
+    background: var(--primary-color); /* Charcoal black #111111 */
+}
+
+.clients-intro {
+    color: rgba(255, 255, 255, 0.8); /* Light text on dark bg */
 }
 
 .clients-grid {

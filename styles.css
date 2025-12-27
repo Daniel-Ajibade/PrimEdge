@@ -395,9 +395,9 @@ button {
 /* HERO SECTION */
 .hero {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background: linear-gradient(
     135deg,
@@ -406,6 +406,7 @@ button {
   );
   color: var(--white);
   text-align: center;
+  padding-top: 100px;
 }
 
 .hero-overlay {

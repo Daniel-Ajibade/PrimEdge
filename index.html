@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PrimEdge Digitals - Leading digital marketing agency offering website development, UI/UX design, SEO, data analysis, and PPC advertising services."
+    />
+    <title>
+      PrimEdge Digitals | Digital Marketing & Web Development Agency
+    </title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Loading Animation Screen -->
+    <!-- <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>Loading PrimEdge Digitals...</p>
+    </div> -->
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-content">
+        <p>
+          <i class="fas fa-cookie-bite"></i> We use cookies to enhance your
+          browsing experience. By continuing, you consent to our use of cookies.
+        </p>
+        <button id="accept-cookies" class="btn-accept">Accept</button>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <i class="fas fa-bolt"></i>
+          <span>PrimEdge Digitals</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <!-- Services Dropdown -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">
+              Our Services <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="website-development.html"
+                  ><i class="fas fa-code"></i> Website Development</a
+                >
+              </li>
+              <li>
+                <a href="data-analysis.html"
+                  ><i class="fas fa-chart-line"></i> Data Analysis</a
+                >
+              </li>
+              <li>
+                <a href="ui-ux-design.html"
+                  ><i class="fas fa-palette"></i> UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a href="seo.html"><i class="fas fa-search"></i> SEO</a>
+              </li>
+              <li>
+                <a href="digital-marketing.html"
+                  ><i class="fas fa-bullhorn"></i> Digital Marketing</a
+                >
+              </li>
+              <li>
+                <a href="ppc-advertising.html"
+                  ><i class="fas fa-ad"></i> PPC Advertising</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Transform Your Digital Presence</h1>
+        <p class="hero-subtitle">
+          Data-driven strategies that deliver measurable results for your
+          business
+        </p>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+
+        <!-- Stats Ticker -->
+        <div class="stats-ticker">
+          <div class="stat-item">
+            <i class="fas fa-project-diagram"></i>
+            <span class="stat-number" data-target="500">0</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-smile"></i>
+            <span class="stat-number" data-target="98">0</span>
+            <span class="stat-suffix">%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-chart-line"></i>
+            <span class="stat-number" data-target="250">0</span>
+            <span class="stat-suffix">%</span>
+            <span class="stat-label">Average ROI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-subtitle">
+            Comprehensive digital solutions tailored to your needs
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Cards -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <h3 class="service-title">Website Development</h3>
+            <p class="service-description">
+              Responsive Websites built with Cutting-edge technology & Latest
+              Design.
+            </p>
+            <a href="website-development.html" class="btn btn-secondary"
+              >Learn More</a
+            >
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 class="service-title">Data Analysis</h3>
+            <p class="service-description">
+              Turn raw data into actionable insights and reports.
+            </p>
+            <a href="data-analysis.html" class="btn btn-secondary"
+              >Learn More</a
+            >
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+            <h3 class="service-title">Digital Marketing</h3>
+            <p class="service-description">
+              Comprehensive campaigns to amplify your BRAND.
+            </p>
+            <a href="digital-marketing.html" class="btn btn-secondary"
+              >Learn More</a
+            >
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-ad"></i></div>
+            <h3 class="service-title">PPC Advertising</h3>
+            <p class="service-description">
+              High-converting ads on Google and Facebook.
+            </p>
+            <a href="ppc-advertising.html" class="btn btn-secondary"
+              >Learn More</a
+            >
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-search"></i></div>
+            <h3 class="service-title">SEO</h3>
+            <p class="service-description">
+              Dominate search rankings with proven SEO strategies.
+            </p>
+            <a href="seo.html" class="btn btn-secondary">Learn More</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-palette"></i></div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-description">
+              Beautiful interfaces that enhance user experience.
+            </p>
+            <a href="ui-ux-design.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Logos -->
+    <section class="clients-section">
+      <div class="container">
+        <p class="clients-intro">Trusted by leading brands worldwide</p>
+        <div class="clients-grid">
+          <div class="client-logo">
+            <img
+              src="/images/logo_arfriqueArtboard-1-1 (1).png"
+              alt="Client 1"
+            />
+          </div>
+          <div class="client-logo">
+            <img src="/images/Artboard-1.png" alt="Client 2" />
+          </div>
+          <div class="client-logo">
+            <img src="/images/hexavest.png" alt="Client 3" />
+          </div>
+          <div class="client-logo">
+            <img src="/images/logo_bArtboard-1.png" alt="Client 4" />
+          </div>
+          <div class="client-logo">
+            <img src="/images/logo_windsorArtboard-1.png" alt="Client 5" />
+          </div>
+          <div class="client-logo">
+            <img src="/images/manan.png" alt="Client 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Portfolio</h2>
+          <p class="section-subtitle">Explore our recent success stories</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web-development">
+            Web Dev
+          </button>
+          <button class="filter-btn" data-filter="data-analysis">Data</button>
+          <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+          <button class="filter-btn" data-filter="seo">SEO</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+          <button class="filter-btn" data-filter="ppc">PPC</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/still-70857726eee33ea525bc5bf59fc9aaf2.webp"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="1">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>CyberSecurity Website</h3>
+              <p>RetailCo Inc.</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/hhgh.webp"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="7">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Sales Dashboard</h3>
+              <p>DataTech Solutions</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/awaw.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="11">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Fitness App Design</h3>
+              <p>FitLife Pro</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/Google-Business-Profile-3-1536x1408.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="15">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Local SEO Success</h3>
+              <p>Local Business Hub</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/Instagram-post-performance-data-1-1536x1536.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="19">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Viral Campaign</h3>
+              <p>TrendSetters</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/goog.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="23">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Google Ads Success</h3>
+              <p>GrowthMax</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/ghhg.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="2">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Corporate Redesign</h3>
+              <p>Enterprise Corp</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/original-d98828c390b0c1897732ae1b001e914d.webp"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="3">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>SaaS Dashboard</h3>
+              <p>Crextio</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/HubSpot-email-marketing-dashboard-768x1536.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="20">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Email Marketing</h3>
+              <p>Newsletter Pro</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/fc3a04485c66b47e6985c5bd5f0c4b28495a3456.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="8">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Predictive Analytics</h3>
+              <p>FinTech Innovations</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/awajjjj.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="16">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Technical SEO</h3>
+              <p>E-Learning Platform</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/facebook-ads-dashboard-coupler.png"
+                alt="Project"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="24">
+                  <i class="fas fa-eye"></i> View
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Facebook Ads</h3>
+              <p>Fashion Forward</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-cta">
+          <a href="portfolio.html" class="btn btn-primary"
+            >View Full Portfolio</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Choose Us?</h2>
+          <p class="section-subtitle">We deliver results, not just services</p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-trophy"></i></div>
+            <h3>Proven Track Record</h3>
+            <p>Over 500 successful projects with measurable ROI.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-users"></i></div>
+            <h3>Expert Team</h3>
+            <p>Certified professionals with years of experience.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-chart-bar"></i></div>
+            <h3>Data-Driven</h3>
+            <p>Every decision backed by analytics and insights.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-headset"></i></div>
+            <h3>24/7 Support</h3>
+            <p>Dedicated team available round the clock.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Fast Delivery</h3>
+            <p>Quick turnaround without compromising quality.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><i class="fas fa-handshake"></i></div>
+            <h3>Transparent</h3>
+            <p>Clear reporting and regular updates always.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Client Testimonials</h2>
+          <p class="section-subtitle">Don't just take our word for it</p>
+        </div>
+
+        <div class="testimonials-slider">
+          <div class="testimonial-card active">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "PrimEdge transformed our online presence. Within 3 months, we saw
+              300% increase in leads. Professional and responsive!"
+            </p>
+            <div class="author">
+              <!-- <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=JD"
+                alt="Author"
+              /> -->
+              <div>
+                <h4>John Doe</h4>
+                <p>CEO, TechStartup Inc.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "The data analysis insights were game-changing. 40% increase in
+              conversion rates. Highly recommended!"
+            </p>
+            <div class="author">
+              <!-- <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=SA"
+                alt="Author"
+              /> -->
+              <div>
+                <h4>Sarah Anderson</h4>
+                <p>Marketing Director, RetailCo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Outstanding redesign! Beautiful UI/UX and bounce rate dropped
+              60%. Exceeded all expectations."
+            </p>
+            <div class="author">
+              <!-- <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=MK"
+                alt="Author"
+              /> -->
+              <div>
+                <h4>Michael Kim</h4>
+                <p>Founder, E-commerce Plus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-nav">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <div class="dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Grow Your Business?</h2>
+        <p>
+          Let's discuss how we can help you achieve your goals. Get a free
+          consultation today!
+        </p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-light">Get Started</a>
+          <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col">
+          <h3><i class="fas fa-bolt"></i> PrimEdge Digitals</h3>
+          <p>Your trusted partner in digital transformation.</p>
+          <div class="cac-badge">
+            <img
+              src="/images/CERTIFICATE - PRIMEDGE DIGITALS SERVICES.pdf"
+              alt="CAC"
+            />
+            <p>CAC REGISTERED</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="website-development.html">Web Development</a></li>
+            <li><a href="data-analysis.html">Data Analysis</a></li>
+            <li><a href="ui-ux-design.html">UI/UX Design</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a href="ppc-advertising.html">PPC Advertising</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="contact-info">
+            <li><i class="fas fa-phone"></i> +234 123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@primedge.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 PrimEdge Digitals. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/2341234567890"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

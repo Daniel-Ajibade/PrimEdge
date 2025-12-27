@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View our complete portfolio of successful projects across web development, data analysis, UI/UX design, SEO, digital marketing, and PPC advertising."
+    />
+    <title>Our Portfolio | PrimEdge Digitals</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-content">
+        <p>
+          <i class="fas fa-cookie-bite"></i> We use cookies to enhance your
+          browsing experience. By continuing, you consent to our use of cookies.
+        </p>
+        <button id="accept-cookies" class="btn-accept">Accept</button>
+      </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <i class="fas fa-bolt"></i>
+          <span>PrimEdge Digitals</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">
+              Our Services <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="website-development.html"
+                  ><i class="fas fa-code"></i> Website Development</a
+                >
+              </li>
+              <li>
+                <a href="data-analysis.html"
+                  ><i class="fas fa-chart-line"></i> Data Analysis</a
+                >
+              </li>
+              <li>
+                <a href="ui-ux-design.html"
+                  ><i class="fas fa-palette"></i> UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a href="seo.html"><i class="fas fa-search"></i> SEO</a>
+              </li>
+              <li>
+                <a href="digital-marketing.html"
+                  ><i class="fas fa-bullhorn"></i> Digital Marketing</a
+                >
+              </li>
+              <li>
+                <a href="ppc-advertising.html"
+                  ><i class="fas fa-ad"></i> PPC Advertising</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="hero-overlay"></div>
+      <div class="container page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+          <span>Portfolio</span>
+        </div>
+        <h1 class="page-hero-title">Our Portfolio</h1>
+        <p class="page-hero-subtitle">
+          Explore our successful projects and the results we've delivered for
+          clients across industries
+        </p>
+      </div>
+    </section>
+
+    <section class="portfolio-stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <h3 class="stat-number" data-target="500">0</h3>
+            <p class="stat-label">Projects Completed</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-smile"></i>
+            </div>
+            <h3 class="stat-number" data-target="98">0</h3>
+            <span class="stat-suffix">%</span>
+            <p class="stat-label">Client Satisfaction</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="stat-number" data-target="35">0</h3>
+            <span class="stat-suffix">+</span>
+            <p class="stat-label">Industries Served</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3 class="stat-number" data-target="25">0</h3>
+            <span class="stat-suffix">+</span>
+            <p class="stat-label">Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-full-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">All Projects</h2>
+          <p class="section-subtitle">
+            Filter by service to see specific project types
+          </p>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="web-development">
+            Web Development
+          </button>
+          <button class="filter-btn" data-filter="data-analysis">
+            Data Analysis
+          </button>
+          <button class="filter-btn" data-filter="ui-ux">UI/UX Design</button>
+          <button class="filter-btn" data-filter="seo">SEO</button>
+          <button class="filter-btn" data-filter="marketing">
+            Digital Marketing
+          </button>
+          <button class="filter-btn" data-filter="ppc">PPC Advertising</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- WEB DEVELOPMENT PROJECTS -->
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/65c6492a24a64d0c-www-sezane-com.webp"
+                alt="E-commerce Website"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="1">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Modern E-commerce Platform</h3>
+              <p>Sézane</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/ad4ad184f8a24da0-ramp-com.webp"
+                alt="Corporate Website"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="2">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Corporate Website</h3>
+              <p>Ramp</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/4dd9fc3214306e04-withpace-com.webp"
+                alt="SaaS Platform"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="3">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>SaaS Web Application</h3>
+              <p>Pace</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/951b28eedfe5b43f-www-oscarpecher-com.webp"
+                alt="Portfolio Website"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="4">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Creative Portfolio Website</h3>
+              <p>Oscar Pecher</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/95fd91b9ac745128-www-localyzer-io.webp"
+                alt="Booking System"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="5">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Online Booking System</h3>
+              <p>Localyzer</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/dd.png"
+                alt="Real Estate Website"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="6">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Real Estate Platform</h3>
+              <p>Prime Properties Ltd</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <!-- DATA ANALYSIS PROJECTS -->
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/data-ana-temp/real-estate-dashboard-example.png"
+                alt="Sales Dashboard"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="7">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Sales Analytics Dashboard</h3>
+              <p>DataTech Solutions</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/webdev-p/Churn-Analysis-Dashboard-with-Location-wise-Risk-Status.png"
+                alt="Predictive Analytics"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="8">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Customer Churn Prediction</h3>
+              <p>FinTech Innovations</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/data-ana-temp/roi-marketing-dashboard-plannuh-ww.webp"
+                alt="Marketing Analytics"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="9">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Marketing ROI Analysis</h3>
+              <p>GrowthBrand Inc.</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/data-ana-temp/image5-103.png"
+                alt="Customer Segmentation"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="10">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Customer Segmentation Study</h3>
+              <p>E-commerce Plus</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <!-- UI/UX DESIGN PROJECTS -->
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/6c5ce7/ffffff?text=Mobile+App"
+                alt="Mobile App Design"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="11">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Fitness Tracking Mobile App</h3>
+              <p>FitLife Pro</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/a29bfe/ffffff?text=SaaS+Dashboard"
+                alt="SaaS Dashboard"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="12">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>SaaS Product Dashboard</h3>
+              <p>CloudSync Systems</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/00b894/ffffff?text=E-commerce"
+                alt="E-commerce Design"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="13">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Fashion E-commerce Platform</h3>
+              <p>StyleHub</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/fd79a8/ffffff?text=Banking+App"
+                alt="Banking App"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="14">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Mobile Banking Application</h3>
+              <p>FinanceFirst Bank</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <!-- SEO PROJECTS -->
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/fd79a8/ffffff?text=Local+SEO"
+                alt="Local SEO"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="15">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Local SEO Domination</h3>
+              <p>Local Business Hub</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/55efc4/ffffff?text=Technical+SEO"
+                alt="Technical SEO"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="16">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Technical SEO Overhaul</h3>
+              <p>E-Learning Platform</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/00b894/ffffff?text=E-commerce+SEO"
+                alt="E-commerce SEO"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="17">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>E-commerce SEO Growth</h3>
+              <p>Fashion Retailer</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="seo">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/6c5ce7/ffffff?text=Content+SEO"
+                alt="Content SEO"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="18">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Content Marketing Success</h3>
+              <p>B2B SaaS Company</p>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+
+          <!-- DIGITAL MARKETING PROJECTS -->
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/fdcb6e/ffffff?text=Social+Campaign"
+                alt="Social Campaign"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="19">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Viral Social Media Campaign</h3>
+              <p>TrendSetters Brand</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/ff7675/ffffff?text=Email+Campaign"
+                alt="Email Campaign"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="20">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Email Marketing Mastery</h3>
+              <p>Newsletter Pro</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/00b894/ffffff?text=Content+Marketing"
+                alt="Content Marketing"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="21">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Content Marketing Strategy</h3>
+              <p>B2B Tech Company</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="marketing">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/6c5ce7/ffffff?text=Influencer+Campaign"
+                alt="Influencer Campaign"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="22">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Influencer Partnership Win</h3>
+              <p>Beauty Brand Co</p>
+              <span class="portfolio-tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <!-- PPC ADVERTISING PROJECTS -->
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/ppc-port/KPI-dashboard-to-evaluate-effectiveness-of-digital-advertisement-campaign-.png"
+                alt="Google Ads"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="23">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Google Ads ROI Success</h3>
+              <p>GrowthMax Agency</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/ppc-port/Meta-Ads-campaign-performance-dashboard-1-1536x1064.png"
+                alt="Facebook Ads"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="24">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Facebook Ads Breakthrough</h3>
+              <p>Fashion Forward</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/ppc-port/2.-Tell-a-Compelling-Data-Story.webp"
+                alt="Shopping Ads"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="25">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Google Shopping Success</h3>
+              <p>E-commerce Retailer</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ppc">
+            <div class="portfolio-image">
+              <img
+                src="/images/ppc-port/aaa.png"
+                alt="LinkedIn Ads"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="26">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>B2B Lead Generation</h3>
+              <p>SaaS Company</p>
+              <span class="portfolio-tag">PPC Advertising</span>
+            </div>
+          </div>
+
+          <!-- MORE PROJECTS (to reach 30+ total) -->
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/e17055/ffffff?text=Education+Platform"
+                alt="Education Platform"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="27">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>E-Learning Platform</h3>
+              <p>EduTech Academy</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/a29bfe/ffffff?text=Restaurant+Site"
+                alt="Restaurant Site"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="28">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Restaurant & Online Ordering</h3>
+              <p>Gourmet Bistro</p>
+              <span class="portfolio-tag">Web Development</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="data-analysis">
+            <div class="portfolio-image">
+              <img
+                src="/images/data-ana-temp/aeaea.png"
+                alt="Operational Analytics"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="49">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Supply Chain Optimization</h3>
+              <p>Logistics Pro Ltd</p>
+              <span class="portfolio-tag">Data Analysis</span>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ui-ux">
+            <div class="portfolio-image">
+              <img
+                src="https://via.placeholder.com/400x300/fdcb6e/ffffff?text=Social+Platform"
+                alt="Social Platform"
+              />
+              <div class="portfolio-overlay">
+                <button class="btn-view-project" data-project="30">
+                  <i class="fas fa-eye"></i> View Project
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Social Networking Platform</h3>
+              <p>Connect App</p>
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <button class="pagination-btn" disabled>
+            <i class="fas fa-chevron-left"></i> Previous
+          </button>
+          <div class="pagination-numbers">
+            <button class="pagination-num active">1</button>
+            <button class="pagination-num">2</button>
+            <button class="pagination-num">3</button>
+          </div>
+          <button class="pagination-btn">
+            Next <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-subtitle">Real feedback from real clients</p>
+        </div>
+
+        <div class="testimonials-slider">
+          <div class="testimonial-card active">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "PrimEdge transformed our online presence. Within 3 months, we saw
+              300% increase in leads. Professional and responsive!"
+            </p>
+            <div class="author">
+              <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=JD"
+                alt="Author"
+              />
+              <div>
+                <h4>John Doe</h4>
+                <p>CEO, TechStartup Inc.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "The data analysis insights were game-changing. 40% increase in
+              conversion rates. Highly recommended!"
+            </p>
+            <div class="author">
+              <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=SA"
+                alt="Author"
+              />
+              <div>
+                <h4>Sarah Anderson</h4>
+                <p>Marketing Director, RetailCo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Outstanding redesign! Beautiful UI/UX and bounce rate dropped
+              60%. Exceeded all expectations."
+            </p>
+            <div class="author">
+              <img
+                src="https://via.placeholder.com/80/1e3a5f/ffffff?text=MK"
+                alt="Author"
+              />
+              <div>
+                <h4>Michael Kim</h4>
+                <p>Founder, E-commerce Plus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-nav">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <div class="dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Start Your Project?</h2>
+        <p>
+          Let's discuss how we can help you achieve similar success for your
+          business.
+        </p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-light">Get Started</a>
+          <a href="about.html" class="btn btn-outline">Learn About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col">
+          <h3><i class="fas fa-bolt"></i> PrimEdge Digitals</h3>
+          <p>Your trusted partner in digital transformation.</p>
+          <div class="cac-badge">
+            <img
+              src="https://via.placeholder.com/100x100/1e3a5f/ffffff?text=CAC"
+              alt="CAC"
+            />
+            <p>CAC Registered</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="website-development.html">Web Development</a></li>
+            <li><a href="data-analysis.html">Data Analysis</a></li>
+            <li><a href="ui-ux-design.html">UI/UX Design</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a href="ppc-advertising.html">PPC Advertising</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="contact-info">
+            <li><i class="fas fa-phone"></i> +234 123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@primedge.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 PrimEdge Digitals. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a
+      href="https://wa.me/2341234567890"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with PrimEdge Digitals. Contact us for digital marketing, web development, and all your digital needs."
+    />
+    <title>Contact Us | PrimEdge Digitals</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-content">
+        <p>
+          <i class="fas fa-cookie-bite"></i> We use cookies to enhance your
+          browsing experience. By continuing, you consent to our use of cookies.
+        </p>
+        <button id="accept-cookies" class="btn-accept">Accept</button>
+      </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <i class="fas fa-bolt"></i>
+          <span>PrimEdge Digitals</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">
+              Our Services <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="website-development.html"
+                  ><i class="fas fa-code"></i> Website Development</a
+                >
+              </li>
+              <li>
+                <a href="data-analysis.html"
+                  ><i class="fas fa-chart-line"></i> Data Analysis</a
+                >
+              </li>
+              <li>
+                <a href="ui-ux-design.html"
+                  ><i class="fas fa-palette"></i> UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a href="seo.html"><i class="fas fa-search"></i> SEO</a>
+              </li>
+              <li>
+                <a href="digital-marketing.html"
+                  ><i class="fas fa-bullhorn"></i> Digital Marketing</a
+                >
+              </li>
+              <li>
+                <a href="ppc-advertising.html"
+                  ><i class="fas fa-ad"></i> PPC Advertising</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="hero-overlay"></div>
+      <div class="container page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+          <span>Contact Us</span>
+        </div>
+        <h1 class="page-hero-title">Get In Touch</h1>
+        <p class="page-hero-subtitle">
+          Ready to transform your digital presence? Let's talk about your
+          project
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-info-section">
+      <div class="container">
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>Mon - Fri: 9am - 6pm</p>
+            <a href="tel:+2341234567890">+234 123 456 7890</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p>We respond within 24 hours</p>
+            <a href="mailto:info@primedge.com">info@primedge.com</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>Our office location</p>
+            <a href="#">123 Business District, Lagos, Nigeria</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>Quick chat support</p>
+            <a href="https://wa.me/2341234567890" target="_blank"
+              >Message on WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-form-container">
+            <div class="form-header">
+              <h2>Send Us a Message</h2>
+              <p>
+                Fill out the form below and we'll get back to you as soon as
+                possible
+              </p>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name"
+                    >Full Name <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                    required
+                  />
+                  <span class="error-message">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email"
+                    >Email Address <span class="required">*</span></label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                  <span class="error-message">Please enter a valid email</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+234 XXX XXX XXXX"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="company">Company Name</label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Your Company"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service"
+                  >Service Interested In <span class="required">*</span></label
+                >
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option value="website-development">
+                    Website Development
+                  </option>
+                  <option value="data-analysis">Data Analysis</option>
+                  <option value="ui-ux-design">UI/UX Design</option>
+                  <option value="seo">SEO</option>
+                  <option value="digital-marketing">Digital Marketing</option>
+                  <option value="ppc-advertising">PPC Advertising</option>
+                  <option value="multiple">Multiple Services</option>
+                  <option value="not-sure">Not Sure Yet</option>
+                </select>
+                <span class="error-message">Please select a service</span>
+              </div>
+
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget range</option>
+                  <option value="under-5k">Under $5,000</option>
+                  <option value="5k-10k">$5,000 - $10,000</option>
+                  <option value="10k-25k">$10,000 - $25,000</option>
+                  <option value="25k-50k">$25,000 - $50,000</option>
+                  <option value="50k-plus">$50,000+</option>
+                  <option value="not-sure">Not Sure Yet</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  >Your Message <span class="required">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell us about your project, goals, and timeline..."
+                  required
+                ></textarea>
+                <span class="error-message">Please enter your message</span>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required />
+                <label for="terms"
+                  >I agree to the <a href="#">Terms & Conditions</a> and
+                  <a href="#">Privacy Policy</a></label
+                >
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loader" style="display: none">
+                  <i class="fas fa-spinner fa-spin"></i> Sending...
+                </span>
+              </button>
+
+              <p class="form-note">
+                <i class="fas fa-shield-alt"></i> Your information is secure and
+                will never be shared with third parties.
+              </p>
+            </form>
+          </div>
+
+          <div class="contact-sidebar">
+            <div class="sidebar-card">
+              <h3>Office Hours</h3>
+              <ul class="office-hours">
+                <li>
+                  <span class="day">Monday - Friday</span>
+                  <span class="time">9:00 AM - 6:00 PM</span>
+                </li>
+                <li>
+                  <span class="day">Saturday</span>
+                  <span class="time">10:00 AM - 4:00 PM</span>
+                </li>
+                <li>
+                  <span class="day">Sunday</span>
+                  <span class="time">Closed</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Quick Response Promise</h3>
+              <p>
+                We understand your time is valuable. Our team typically responds
+                to all inquiries within 24 hours during business days.
+              </p>
+              <ul class="response-list">
+                <li><i class="fas fa-check"></i> Email: Within 24 hours</li>
+                <li>
+                  <i class="fas fa-check"></i> Phone: Immediate during office
+                  hours
+                </li>
+                <li><i class="fas fa-check"></i> WhatsApp: Within 2 hours</li>
+              </ul>
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Follow Us</h3>
+              <p>
+                Stay updated with our latest projects and digital marketing tips
+              </p>
+              <div class="social-links-large">
+                <a href="#" class="social-link">
+                  <i class="fab fa-facebook"></i>
+                  <span>Facebook</span>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-twitter"></i>
+                  <span>Twitter</span>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fab fa-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="sidebar-card cta-card">
+              <h3>Need Urgent Help?</h3>
+              <p>
+                For urgent matters, call us directly or message us on WhatsApp
+              </p>
+              <a href="tel:+2341234567890" class="btn btn-outline btn-full">
+                <i class="fas fa-phone"></i> Call Now
+              </a>
+              <a
+                href="https://wa.me/2341234567890"
+                target="_blank"
+                class="btn btn-success btn-full"
+              >
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Find Us On The Map</h2>
+          <p class="section-subtitle">
+            Visit our office for face-to-face consultations
+          </p>
+        </div>
+
+        <div class="map-container">
+          <!-- Placeholder for Google Maps - Replace with actual embed code -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7292746638985!2d3.3792057!3d6.428055399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+
+        <div class="map-info">
+          <div class="map-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Address</h4>
+              <p>123 Business District, Victoria Island, Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div class="map-info-item">
+            <i class="fas fa-directions"></i>
+            <div>
+              <h4>Directions</h4>
+              <p>
+                We're located in the heart of Victoria Island, easily accessible
+                by car or public transport
+              </p>
+            </div>
+          </div>
+          <div class="map-info-item">
+            <i class="fas fa-parking"></i>
+            <div>
+              <h4>Parking</h4>
+              <p>
+                Free parking available for visitors in the building's garage
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Common Questions</h2>
+          <p class="section-subtitle">Quick answers before you reach out</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How long does it take to get a response?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We typically respond to all inquiries within 24 hours during
+                business days. For urgent matters, call us directly or message
+                us on WhatsApp for faster response times.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you offer free consultations?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! We offer free initial consultations to discuss your
+                project, understand your goals, and provide recommendations. No
+                obligation required.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What information should I include in my message?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Include details about your project goals, timeline, budget
+                range, and any specific requirements you have. The more
+                information you provide, the better we can tailor our response
+                to your needs.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I schedule a meeting at your office?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely! We welcome face-to-face meetings. Contact us to
+                schedule an appointment at a time that works for you.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you work with international clients?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! We serve clients globally and have experience working
+                remotely with teams across different time zones. We use modern
+                collaboration tools to ensure seamless communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What happens after I submit the contact form?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                You'll receive an automated confirmation email immediately.
+                Then, a team member will review your inquiry and respond within
+                24 hours to schedule a detailed consultation or answer your
+                questions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col">
+          <h3><i class="fas fa-bolt"></i> PrimEdge Digitals</h3>
+          <p>Your trusted partner in digital transformation.</p>
+          <div class="cac-badge">
+            <img
+              src="https://via.placeholder.com/100x100/1e3a5f/ffffff?text=CAC"
+              alt="CAC"
+            />
+            <p>CAC Registered</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="website-development.html">Web Development</a></li>
+            <li><a href="data-analysis.html">Data Analysis</a></li>
+            <li><a href="ui-ux-design.html">UI/UX Design</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a href="ppc-advertising.html">PPC Advertising</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="contact-info">
+            <li><i class="fas fa-phone"></i> +234 123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@primedge.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 PrimEdge Digitals. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a
+      href="https://wa.me/2341234567890"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div id="success-modal" class="modal">
+      <div class="modal-content success-content">
+        <span class="modal-close">&times;</span>
+        <div class="success-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <h2>Message Sent Successfully!</h2>
+        <p>
+          Thank you for contacting PrimEdge Digitals. We've received your
+          message and will get back to you within 24 hours.
+        </p>
+        <button
+          class="btn btn-primary"
+          onclick="document.getElementById('success-modal').style.display='none'"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
